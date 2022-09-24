@@ -61,19 +61,7 @@ echo =================================================
 ping localhost -n 5 > nul
 cd /d "%~dp0"
 cd ..
+echo O programa saira sozinho
+ping localhost -n 5 > nul
 rd /s /q "Joy-Stick-roblox"
-cls
-echo =================================================
-echo [X] Permisao do admin
-echo [X] Verificando aplicacoes
-echo [X] Deletar arquivos temp do roblox
-echo [X] Baixar
-echo [X] Instalar
-echo [X] Deletar arquivos temp do roblox
-echo [+] Desfrute
-echo =================================================
-echo Sucesso!
-echo Agora desfrute do seu jogo!
-echo Precione qualquer tecla para sair...
-pause > nul
 exit
